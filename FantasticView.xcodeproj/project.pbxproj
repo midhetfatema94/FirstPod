@@ -14,6 +14,7 @@
 		BB329E221E07C126009D1EFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB329E201E07C126009D1EFB /* LaunchScreen.storyboard */; };
 		BB329E2D1E07C126009D1EFB /* FantasticViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB329E2C1E07C126009D1EFB /* FantasticViewTests.swift */; };
 		BB329E381E07C126009D1EFB /* FantasticViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB329E371E07C126009D1EFB /* FantasticViewUITests.swift */; };
+		BB329E461E07C14D009D1EFB /* FantasticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB329E451E07C14D009D1EFB /* FantasticView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		BB329E331E07C126009D1EFB /* FantasticViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FantasticViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB329E371E07C126009D1EFB /* FantasticViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FantasticViewUITests.swift; sourceTree = "<group>"; };
 		BB329E391E07C126009D1EFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB329E451E07C14D009D1EFB /* FantasticView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FantasticView.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		BB329E161E07C126009D1EFB /* FantasticView */ = {
 			isa = PBXGroup;
 			children = (
+				BB329E451E07C14D009D1EFB /* FantasticView.swift */,
 				BB329E171E07C126009D1EFB /* AppDelegate.swift */,
 				BB329E191E07C126009D1EFB /* ViewController.swift */,
 				BB329E1B1E07C126009D1EFB /* Main.storyboard */,
@@ -264,6 +267,7 @@
 			files = (
 				BB329E1A1E07C126009D1EFB /* ViewController.swift in Sources */,
 				BB329E181E07C126009D1EFB /* AppDelegate.swift in Sources */,
+				BB329E461E07C14D009D1EFB /* FantasticView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
